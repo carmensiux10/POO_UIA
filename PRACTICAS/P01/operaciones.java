@@ -4,8 +4,7 @@ public class operaciones
 	{
 
 		int a=10, b=3, c=1,d,e;
-		float x, 
-		float y;
+		float x,y;
 		x =  a/b;
 		//c = a<b &&  c; // no existe conversion, c ml es no es una expresion booleanan, los operadores && evaluan la expresion del lado derecho
 		//c = boolean (a<b);	

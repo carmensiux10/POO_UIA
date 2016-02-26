@@ -1,0 +1,10 @@
+public class Mediana {
+    public static void main(String[] args) {
+public static double median(double[] m) {
+    int middle = m.length/2;
+    if (m.length%2 == 1) {
+        return m[middle];
+    } else {
+        return (m[middle-1] + m[middle]) / 2.0;
+    }
+}

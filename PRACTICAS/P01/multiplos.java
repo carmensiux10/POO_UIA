@@ -6,6 +6,8 @@ public static void main(String []args){
 	Scanner sc = new Scanner(System.in);
 
 int a, b, c, suma = 0;
+String multip=" ";
+
 
 
 
@@ -28,12 +30,19 @@ a=b;
 b=c;
 
 }
-
-for (int i=a; i<b; i++){
+for (int i=a; i<=b; i++){
 if(i%5==0){
-suma = suma+i;
+multip = multip +i+":";
+System.out.println("multiplos de 5:"+multip);
+}
+}
+
+for (int i=a; i<=b; i++){
+if(i%5==0){
+suma = suma +i;
 }
 System.out.println("suma" + suma);
+
 }
 }
 }
